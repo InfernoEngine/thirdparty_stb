@@ -4,14 +4,11 @@
 	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
 	<GlobalNamespace>potato</GlobalNamespace>
 
-	<StaticLibrary>
+	<HeaderLibrary>
 		<Name>thirdparty_stb</Name>
 		<SourceRoot>.</SourceRoot>
 		<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
 		<ThirdParty>true</ThirdParty>
-		<ThirdPartySourceFile>
-			dummy.cpp
-		</ThirdPartySourceFile>
-	</StaticLibrary>
+	</HeaderLibrary>
 
 </Module>
